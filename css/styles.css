@@ -1,0 +1,181 @@
+/*alles te maken met de navbar*/
+#title {
+  /*background-color: #ffffff;*/
+  background-color: #560d0d;
+}
+#planning{
+  background-color: #560d0d;
+}
+#doelgroep{
+  background-color: #560d0d;
+}
+.navbar {
+  text-align: right;
+}
+
+.title-image-spook {
+  width: 2%;
+}
+
+/* Alles wat te maken heeft met het verschijnselen van het grote spook*/
+.grootspook {
+  position: absolute;
+  /*als ik display none doe, is de margin top 50px.*/
+  margin-top: 150px;
+  margin-left: 650px;
+  opacity: 0.1;
+}
+
+.spookgroot {
+  position: absolute;
+  width: 35%;
+  margin-top: 150px;
+  margin-left: 650px;
+}
+
+/*.spook-container{
+background-color: #560d0d;
+}*/
+/*.spookcontainer-on{
+    height: 350px;
+}
+*/
+.focusblock{
+  display: none;
+}
+.focusblock-on{
+  position: absolute;
+  z-index: 1;
+  margin-top: 700px;
+  margin-left: 650px;
+}
+
+.focus-text-on {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+}
+
+/* alles te maken met de kladblokjes*/
+.container-fluid {
+  position: relative;
+  background-color:#560d0d;
+  margin-top: 10px;
+}
+
+.container {
+  background-color: #560d0d;;
+}
+
+.title-container {
+  background-color: #ffd868;
+  height: 200px;
+  width: 420px;
+  border: solid 1px #000000;
+  box-shadow: 10px 10px 5px #000000;
+  position: absolute;
+  padding-top: 20px;
+  margin-left: 680px;
+  margin-top: 380px;
+  transform: rotate(-25deg);
+  z-index: 1;
+}
+
+.col {
+  padding: 5%;
+  margin: 2%;
+  height: 260px;
+  width: 60px;
+  background-color: #f8615a;
+  border: solid 0.5px #000000;
+  box-shadow: 10px 10px 5px #000000;
+}
+
+.col-transparent {
+  opacity: 0.3;
+}
+
+.col-removed {
+  visibility: hidden;
+}
+
+.order-last {
+  background-color: #721b65;
+  position: absolute;
+}
+
+.order-second {
+  position: absolute;
+}
+
+.order-first {
+  background-color: #b80d57;
+  position: absolute;
+}
+
+.col-sm{
+  background-color: #ffd868;
+  border: solid 0.5px #000000;
+  height: 260px;
+  width: 60px;
+  padding: 5%;
+  margin: 2%;
+}
+
+/*alle lettertypen*/
+h1 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+.planningtext{
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+font-size: 60px;
+margin: 20px auto 15px auto;
+text-align: center;
+
+
+}
+
+.h1-margin {
+  margin-top: 300px;
+  margin-left: 500px;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.big-paragraph {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.taaktext{
+color: #000000;
+font-family: 'Lato', sans-serif;
+}
+
+.uitleg-text {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.ftext{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 2px;
+}
